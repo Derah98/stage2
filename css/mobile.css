@@ -5,7 +5,8 @@
 
 /* ABOUT */
 #about{
-  padding-top: 6rem;
+  padding-top: 5rem;
+  margin-bottom: 2rem;
 }
 
 #about .about-img{
@@ -23,5 +24,5 @@
 
 /* STACK */
 #stack{
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
