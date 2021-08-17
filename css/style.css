@@ -1,0 +1,170 @@
+:root{
+  --primary-color: rgba(163, 35, 163, 0.863);
+  --secondary-color: #444;
+  --tertiary-color: rgb(177, 157, 157);
+  scroll-behavior: smooth;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.l-heading{
+  font-size: 4rem;
+  color: var(--secondary-color);
+}
+p{
+  line-height: 1.7;
+}
+
+
+/* UTILITY CLASSES */
+.container{
+  max-width: 1100px;
+  margin: auto;
+}
+
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: var(--secondary-color);
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  transition: all 1s ease-in-out;
+}
+.btn:hover{
+  background: var(--primary-color);
+}
+.btnsend{
+  background: var(--primary-color);
+  width: 100%;
+}
+
+
+/* NAVBAR */
+#navbar{
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+#navbar ul{
+  display: flex;
+  list-style: none;
+}
+#navbar .logo{
+  color: var(--primary-color);
+  font-family: cursive;
+  margin: 0.5rem 1rem;
+}
+#navbar ul li a{
+  display: inline-block;
+  text-decoration: none;
+  color: var(--primary-color);
+  padding: 1rem;
+  text-align: center;
+  transition: all 1s ease-in-out;
+}
+#navbar ul li a:hover{
+
+  border-bottom: 1px solid var(--primary-color);
+}
+
+/* ABOUT */
+#about{
+  display: flex;
+  height: 100vh;
+}
+#about .about-text{
+  padding-top: 100px;
+  width: 50%;
+  padding-left: 50px;
+}
+#about .about-img{
+  background: url('../img/—Pngtree—flat\ design\ concept\ of\ programmers_5870919.png')no-repeat center center/cover;
+  width: 50%;
+  height: 100%;
+}
+
+.track{
+  display: inline-block;
+  border-radius: 9px;
+  padding: 0.2rem;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+/* STACK */
+#stack{
+  height: 600px;
+  background: rgb(248, 243, 243);
+}
+#stack h1{
+  text-align: center;
+  padding: 2rem;
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+#stack .container div{
+  background: var(--tertiary-color);
+  margin-top: 2rem;
+  color: #fff;
+  padding: 1rem;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  border-radius: 10px;
+}
+#stack .container .css{
+  width: 90%;
+}
+
+#stack .container .react{
+  width: 90%;
+}
+
+#stack .container{
+  border-left: 1px solid var(--primary-color);
+  border-right: 1px solid var(--primary-color);
+}
+
+/* CONTACT */
+#contact{
+  padding-left: 6rem;
+}
+#contact .form-wrap{
+  height: 300px;
+  padding: 1rem;
+}
+#contact .form-wrap h1{
+  text-align: center;
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+.form-group label{
+  display: block;
+  margin-top: 1rem;
+}
+.form-group input,
+.form-group textarea{
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid var(--primary-color);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* FOOTER */
+#mainfoot{
+  background: var(--secondary-color);
+  margin-top: 10rem;
+  text-align: center;
+  color: #fff;
+  padding: 0.6rem;
+}

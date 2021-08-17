@@ -1,0 +1,22 @@
+.l-heading{
+  font-size: 2rem;
+}
+
+
+/* ABOUT */
+#about{
+  padding-top: 6rem;
+}
+
+#about .about-img{
+  display: none;
+}
+#about .about-text{
+  width: 100%;
+  padding: 2rem;
+}
+
+/* CONTACT */
+#contact{
+  padding-left: 0rem;
+}
