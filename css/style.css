@@ -63,6 +63,9 @@ p{
   font-family: cursive;
   margin: 0.5rem 1rem;
 }
+#navbar img{
+  width: 50px;
+}
 #navbar ul li a{
   display: inline-block;
   text-decoration: none;
